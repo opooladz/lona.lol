@@ -134,7 +134,7 @@
       const body = encodeURIComponent(
         `Hi Lona,\n\nPlease add me to the waitlist for the free DAT guide.\n\nEmail: ${email}\n\n— Sent from datmasters.com`
       );
-      window.location.href = `mailto:lona@datmasters.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:Lona@DATMasters.com?subject=${subject}&body=${body}`;
       // Surface confirmation locally too.
       form.classList.add('is-success');
       const msg = form.querySelector('.success-msg');
@@ -146,7 +146,7 @@
   // Single config block — replace BOOKING_URL with Calendly/GHL once live.
   // Until then every [data-cta="book"] button falls back to a real mailto.
   const BOOKING_URL = ''; // e.g., 'https://calendly.com/lona-datmasters/strategy'
-  const BOOKING_EMAIL = 'lona@datmasters.com';
+  const BOOKING_EMAIL = 'Lona@DATMasters.com';
   const MAILTO = `mailto:${BOOKING_EMAIL}` +
     '?subject=' + encodeURIComponent('Free DAT strategy call — request') +
     '&body=' + encodeURIComponent(
