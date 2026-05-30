@@ -810,6 +810,51 @@ section { padding: var(--section-y) 0; position: relative; }
 .story-author .name { font-weight: 600; font-size: var(--text-small); color: var(--color-ink); }
 .story-author .score { font-size: var(--text-micro); color: var(--color-neutral-500); letter-spacing: 0.04em; text-transform: uppercase; }
 
+/* Proof thumbnail — verifiable screenshot under a testimonial */
+.story-proof {
+  display: block;
+  margin-top: var(--space-2);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: var(--border-hairline);
+  background: var(--color-bg-alt);
+  transition: transform var(--dur-fast) var(--ease), box-shadow var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+  position: relative;
+  text-decoration: none;
+}
+.story-proof:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+  border-color: var(--color-accent);
+}
+.story-proof img {
+  display: block;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  object-position: top center;
+}
+.story-proof .proof-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  font-size: var(--text-micro);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  background: var(--color-bg);
+  border-top: var(--border-hairline);
+}
+.story-proof .proof-label::before {
+  content: "";
+  width: 12px; height: 12px;
+  flex-shrink: 0;
+  background-color: var(--color-success);
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='currentColor' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' d='M3 8 l3.5 3.5 L13 5'/></svg>") center/contain no-repeat;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='currentColor' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round' d='M3 8 l3.5 3.5 L13 5'/></svg>") center/contain no-repeat;
+}
+
 @media (max-width: 900px) {
   .stories-grid { grid-template-columns: 1fr; }
   .story.is-featured { grid-column: span 1; }
