@@ -830,9 +830,6 @@ section { padding: var(--section-y) 0; position: relative; }
   display: block;
   width: 100%;
   height: auto;
-  max-height: 380px;
-  object-fit: cover;
-  object-position: top center;
 }
 .story-proof .proof-label {
   display: flex;
