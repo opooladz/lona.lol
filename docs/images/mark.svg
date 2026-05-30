@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DAT Masters mark">
+  <!-- Rounded square badge in Midnight Ink -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#0F1E3A"/>
+
+  <!-- D: outer shape filled in cream, inner crown cut out -->
+  <path d="
+    M 11 14
+    L 19 14
+    Q 30 14 30 26
+    L 30 38
+    Q 30 50 19 50
+    L 11 50
+    Z
+    M 17 19
+    L 19 19
+    Q 25 19 25 25.5
+    Q 23.5 24 22 25
+    Q 23.5 27 22 28.5
+    Q 23.5 28 25 29.5
+    L 25 38.5
+    Q 23.5 37 22 38.5
+    Q 23.5 41 22 42
+    Q 23.5 41 25 42.5
+    Q 25 45 19 45
+    L 17 45
+    Z
+  " fill="#FBF8F1" fill-rule="evenodd"/>
+
+  <rect x="31" y="14" width="0.6" height="36" fill="#FBF8F1" opacity="0.3"/>
+
+  <!-- M: balanced verticals + balanced interior V (no pinch) -->
+  <path d="
+    M 33 14
+    L 37 14
+    L 41 30
+    L 45 14
+    L 49 14
+    L 53 14
+    L 53 50
+    L 49 50
+    L 49 26
+    L 45 38
+    L 41 38
+    L 37 26
+    L 37 50
+    L 33 50
+    Z
+  " fill="#FBF8F1" fill-rule="evenodd"/>
+
+  <!-- Saffron accent dot — placed as the period after M (echoes wordmark) -->
+  <circle cx="58" cy="48.5" r="2.6" fill="#E8A33D"/>
+</svg>

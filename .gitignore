@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+autoresearch-results.tsv
+.autoresearch-starred
+dist/
+
+# Internal research / iteration docs — never commit to public repo
+research/
+design-iterations/
+logo-concepts/
+DEPLOY.md
+
+# Internal tooling
+.claude/
+.ckignore

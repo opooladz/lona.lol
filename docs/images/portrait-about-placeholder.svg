@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-label="Lona at her desk">
+  <defs>
+    <linearGradient id="ab-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EDDE"/>
+      <stop offset="100%" stop-color="#E5E7EC"/>
+    </linearGradient>
+    <linearGradient id="ab-window" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF8F1"/>
+      <stop offset="100%" stop-color="#F2EDDE"/>
+    </linearGradient>
+    <filter id="ab-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.06  0 0 0 0 0.12  0 0 0 0 0.23  0 0 0 0.07 0"/>
+    </filter>
+  </defs>
+
+  <!-- Frame -->
+  <rect width="480" height="600" rx="20" fill="url(#ab-bg)"/>
+
+  <!-- Soft window of light (left) -->
+  <rect x="40" y="60" width="180" height="260" rx="6" fill="url(#ab-window)" opacity="0.85"/>
+  <line x1="130" y1="60" x2="130" y2="320" stroke="#C9CDD5" stroke-width="1.5"/>
+  <line x1="40" y1="190" x2="220" y2="190" stroke="#C9CDD5" stroke-width="1.5"/>
+
+  <!-- Plant on the desk (right side, fills emptiness) -->
+  <g transform="translate(385, 290)">
+    <ellipse cx="0" cy="60" rx="36" ry="10" fill="#8C93A0" opacity="0.4"/>
+    <rect x="-26" y="20" width="52" height="42" rx="6" fill="#0F1E3A"/>
+    <path d="M0 22 C-10 -10 -28 -28 -34 -36 M0 22 C-2 -16 -8 -38 -8 -54 M0 22 C8 -10 22 -28 30 -36 M0 22 C4 -8 14 -30 22 -42 M0 22 C-2 0 0 -20 4 -34" stroke="#2F6B4A" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Desk surface -->
+  <rect x="0" y="430" width="480" height="170" fill="#7B92B8" opacity="0.30"/>
+  <line x1="0" y1="430" x2="480" y2="430" stroke="#0F1E3A" stroke-width="1.5" opacity="0.18"/>
+
+  <!-- Notebook on desk -->
+  <g transform="translate(80, 460)">
+    <rect width="180" height="120" rx="6" fill="#FBF8F1" stroke="#C9CDD5" stroke-width="1.5"/>
+    <line x1="14" y1="28" x2="166" y2="28" stroke="#8C93A0" stroke-width="1" opacity="0.5"/>
+    <line x1="14" y1="48" x2="160" y2="48" stroke="#8C93A0" stroke-width="1" opacity="0.5"/>
+    <line x1="14" y1="68" x2="148" y2="68" stroke="#8C93A0" stroke-width="1" opacity="0.5"/>
+    <line x1="14" y1="88" x2="170" y2="88" stroke="#8C93A0" stroke-width="1" opacity="0.5"/>
+    <!-- Highlighter line in saffron -->
+    <rect x="14" y="40" width="78" height="14" rx="2" fill="#E8A33D" opacity="0.4"/>
+  </g>
+
+  <!-- Coffee mug -->
+  <g transform="translate(330, 480)">
+    <ellipse cx="0" cy="92" rx="34" ry="6" fill="#0F1E3A" opacity="0.18"/>
+    <path d="M-22 18 L-22 80 C-22 88 -16 92 -6 92 L18 92 C28 92 32 84 32 76 L32 24 C32 20 28 18 26 18 Z" fill="#0F1E3A"/>
+    <path d="M32 28 C46 28 46 56 32 60" fill="none" stroke="#0F1E3A" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="5" cy="20" rx="26" ry="5" fill="#08142A"/>
+    <!-- Subtle steam -->
+    <path d="M-6 -4 C-8 -16 -2 -22 -4 -36" stroke="#8C93A0" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M6 -4 C8 -16 2 -22 4 -36" stroke="#8C93A0" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- Hand-drawn underline accent (saffron) -->
+  <path d="M40 410 C 80 405, 140 412, 200 406" stroke="#E8A33D" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Saffron dot — echoes logo -->
+  <circle cx="48" cy="48" r="6" fill="#E8A33D"/>
+
+  <!-- Eyebrow label -->
+  <text x="48" y="552" font-family="Inter, sans-serif" font-size="11" font-weight="600" letter-spacing="2.2" fill="#5E6573">DESK STILL LIFE · REPLACE WITH PHOTO</text>
+
+  <!-- Film grain overlay -->
+  <rect width="480" height="600" rx="20" filter="url(#ab-grain)" opacity="0.5"/>
+</svg>

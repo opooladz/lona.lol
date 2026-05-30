@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 64" role="img" aria-label="DAT Masters">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,420&display=swap');
+      .wm {
+        font-family: 'Fraunces', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+        font-weight: 420;
+        font-size: 44px;
+        letter-spacing: 0.005em;
+        font-variation-settings: 'opsz' 144, 'SOFT' 50, 'WONK' 0;
+        font-feature-settings: 'ss01', 'ss02';
+      }
+      .cream { fill: #FBF8F1; }
+      .saffron { fill: #E8A33D; }
+    ]]></style>
+  </defs>
+  <text x="0" y="46" class="wm cream">DAT Masters</text>
+  <text x="296" y="46" class="wm saffron" aria-hidden="true">.</text>
+</svg>

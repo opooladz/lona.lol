@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="DAT Masters — DAT prep that shows up for you">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#FBF8F1"/>
+      <stop offset="100%" stop-color="#F2EDDE"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="78%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#E8A33D" stop-opacity="0.14"/>
+      <stop offset="80%" stop-color="#E8A33D" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="og-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+  </defs>
+
+  <!-- Frame -->
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <rect width="1200" height="630" fill="url(#og-glow)"/>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 130)">
+    <line x1="0" y1="10" x2="48" y2="10" stroke="#0F1E3A" stroke-width="1.5" opacity="0.5"/>
+    <text x="64" y="14" font-family="Inter, sans-serif" font-size="18" font-weight="600" letter-spacing="2.4" fill="#0F1E3A">LIVE DAT COACHING, IN SMALL GROUPS</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="80" y="240" font-family="Fraunces, Georgia, serif" font-size="80" font-weight="420" fill="#15171C" letter-spacing="-1.6">The DAT prep that</text>
+  <text x="80" y="332" font-family="Fraunces, Georgia, serif" font-size="80" font-weight="420" fill="#15171C" letter-spacing="-1.6">actually shows up</text>
+  <text x="80" y="424" font-family="Fraunces, Georgia, serif" font-size="80" font-weight="420" fill="#15171C" letter-spacing="-1.6">for you.</text>
+  <!-- Squiggle on "shows up" -->
+  <path d="M252 350 Q 470 340 670 348" stroke="#E8A33D" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Stats bar -->
+  <g transform="translate(80, 500)">
+    <text x="0" y="0" font-family="Fraunces, Georgia, serif" font-size="44" font-weight="420" fill="#0F1E3A">24 AA</text>
+    <text x="0" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="1.4" fill="#5E6573">DAT ACADEMIC AVG</text>
+
+    <line x1="180" y1="-30" x2="180" y2="40" stroke="#C9CDD5" stroke-width="1"/>
+
+    <text x="208" y="0" font-family="Fraunces, Georgia, serif" font-size="44" font-weight="420" fill="#0F1E3A">Top 2%</text>
+    <text x="208" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="1.4" fill="#5E6573">NATIONAL DAT</text>
+
+    <line x1="380" y1="-30" x2="380" y2="40" stroke="#C9CDD5" stroke-width="1"/>
+
+    <text x="408" y="0" font-family="Fraunces, Georgia, serif" font-size="44" font-weight="420" fill="#0F1E3A">UCLA</text>
+    <text x="408" y="32" font-family="Inter, sans-serif" font-size="14" font-weight="500" letter-spacing="1.4" fill="#5E6573">DENTAL · CLASS OF 2030</text>
+  </g>
+
+  <!-- Wordmark (top right) -->
+  <g transform="translate(1080, 80)">
+    <text x="0" y="0" font-family="Fraunces, Georgia, serif" font-size="32" font-weight="500" fill="#0F1E3A" text-anchor="end">DAT Masters</text>
+    <circle cx="14" cy="-6" r="4" fill="#E8A33D"/>
+  </g>
+
+  <!-- Navy accent block (bottom-right) -->
+  <g transform="translate(820, 130)">
+    <rect x="0" y="0" width="320" height="380" rx="20" fill="#0F1E3A"/>
+    <text x="32" y="60" font-family="Inter, sans-serif" font-size="13" font-weight="600" letter-spacing="1.6" fill="#7B92B8">COHORTS · CAPPED AT 8</text>
+    <text x="32" y="124" font-family="Fraunces, Georgia, serif" font-size="38" font-weight="420" fill="#FBF8F1">Real coach.</text>
+    <text x="32" y="170" font-family="Fraunces, Georgia, serif" font-size="38" font-weight="420" fill="#FBF8F1">Real cohort.</text>
+    <text x="32" y="216" font-family="Fraunces, Georgia, serif" font-size="38" font-weight="420" fill="#FBF8F1">Real plan.</text>
+
+    <line x1="32" y1="252" x2="100" y2="252" stroke="#E8A33D" stroke-width="2"/>
+
+    <text x="32" y="296" font-family="Inter, sans-serif" font-size="16" font-weight="500" fill="#FBF8F1" opacity="0.85">Lona Tehrani</text>
+    <text x="32" y="320" font-family="Inter, sans-serif" font-size="14" font-weight="400" fill="#FBF8F1" opacity="0.75">DAT 24 AA · UCLA Dental</text>
+
+    <text x="32" y="356" font-family="Inter, sans-serif" font-size="13" font-weight="600" letter-spacing="0.8" fill="#E8A33D">datmasters.com →</text>
+  </g>
+
+  <!-- Film grain overlay -->
+  <rect width="1200" height="630" filter="url(#og-grain)" opacity="0.55"/>
+</svg>
